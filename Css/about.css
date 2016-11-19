@@ -1,0 +1,20 @@
+.about img, .about p{
+    float:left;
+}
+
+.about img {
+    width:20%;
+    height: auto;
+    border-radius: 100%
+}
+
+.about p {
+    width: 70%;
+        margin-left:10%;
+}
+
+.about {
+    margin-top: 40px;
+    line-height: 25px;
+    font-size: 1.1em;
+}

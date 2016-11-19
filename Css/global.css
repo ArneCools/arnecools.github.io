@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    overflow-y: scroll;
+}
+body {
+    background-color: #f8f8f8;
+    padding: 15px 3%;
+    font-size: 100%
+    
+}
+
+header a{
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#wrapper {
+    margin: 0 auto;
+    max-width: 940px;
+    height: 100%
+}
+
+header {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+header div {
+    background-color: #313131;
+    color:#f8f8f8;
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    padding: 30px;
+    font-size: 2.5em;
+    font-family: 'Dancing Script', cursive;
+    margin: auto;  
+}
+
+nav {
+    font-family: 'Bree Serif', serif;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+}
+
+
+
+
+
+
+
+nav ul li {
+
+    text-align: center;
+    margin: 0 auto;
+    width: 20%;
+    min-width: 75px;
+    /* 420px too small*/
+    
+}
+
+nav ul a {
+    display: block;
+    text-decoration: none;
+    color: #313131;
+    font-size:1.4em;
+        width: 100%
+}
+.selected,nav ul a:hover{
+    text-decoration: underline;
+}
+
+nav hr { 
+    background-color: #313131;
+    height: 2px;
+    border: 0;
+    margin: 7px 0;
+    border-radius: 50px;
+}
+
+.arrowa {
+    display: block;
+    margin: 60px auto 15px auto;
+    
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    background-color:#313131; 
+    position: relative;
+}
+
+.arrow {
+    position: absolute;
+    width: 0; 
+	height: 0; 
+	border-left: 15px solid transparent;
+	border-right:15px solid transparent;
+	border-bottom: 15px solid #f8f8f8;
+    margin: auto;
+    top:14px;
+    right: 10px;
+}
+
+
+
+#content{
+    font-family:  'Josefin Sans', sans-serif;
+    color: #313131;
+}
+
+#content h1{
+    font-family: 'Bree Serif', serif;
+    font-size: 1.7em;
+    margin-bottom: 25px;
+}
+
+
+
+
+@media all and (min-width:420px){
+    nav ul li {
+     float: left;   
+    }
+}
+
+
+
+
+
+/*<!-- CLEARFIX-->*/
+.clearfix::before, .clearfix::after,#content div div::before, #content div div::after {
+    display: table;
+    content:"";
+    line-height:0;
+}
+.clearfix::after, #content div div::after { clear:both; 
+}
+

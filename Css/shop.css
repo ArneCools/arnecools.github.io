@@ -1,0 +1,145 @@
+#content{
+    min-height: 500px;
+}
+
+#content h1 {
+    margin-bottom: 10px;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+
+#content div a {
+    border-radius: 100%;
+    background-color: #313131;
+    width: 170px;
+    height: 170px;
+    color: #f8f8f8;
+    line-height: 170px;
+    text-align:center;
+    text-decoration: none;
+    display: block;
+    margin: 0 auto;
+    font-size: 1.3em;
+    font-family: 'Bree Serif', serif;
+    position: relative;
+    cursor: pointer;
+}
+
+#content > div > div {
+    width: 33.333333333333333333333333333333%;
+    float:left;
+}
+
+#content  > div {
+    margin: 22px 0;
+    width: 100%;
+}
+
+ #content form {
+     background-color: #313131;
+     font-family: 'Josefin Sans', sans-serif;
+     padding: 1.1em;
+     color:#f8f8f8;
+     font-size: 1.3em;
+     display: none;
+     
+ }
+
+#content form label,#content form input {
+    display: block;
+}
+
+#content form label{
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+#content form div:first-child, #content form div:first-child label {
+    margin-top: 0;
+}
+
+#content form input, #content form textarea {
+    width: 100%;
+    background-color: #f8f8f8;
+    border: none;
+    color: #313131;
+}
+
+ #content form textarea {
+     height: 250px;
+ }
+
+#content form input[type="submit"] {
+    width: 100px;
+    height: 30px;
+    color: #313131;
+    font-family: 'Bree Serif', serif;
+    margin-top: 10px;
+}
+
+.orderarrow{
+
+	width: 0; 
+	height: 0; 
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	
+	border-bottom: 25px solid #313131;
+    position: absolute;
+    top: 168px;
+    left: 42%;
+    display: none;
+
+}
+
+
+#feedback{
+    font-size: 2em;
+}
+
+
+
+@media all and (max-width:580px){
+    #content div a{
+        height: 140px;
+        width: 140px;
+        line-height: 140px;
+        font-size: 1.2em;
+    }
+        
+        .orderarrow{
+    top: 138px;
+    left: 42%;
+
+    }
+}
+
+
+@media all and (max-width:480px){
+    #content div a{
+        height: 120px;
+        width: 120px;
+        line-height: 120px;
+        font-size: 1.1em;
+    }
+            .orderarrow{
+    top: 118px;
+    left: 42%;
+
+    }
+}
+
+@media all and (max-width:408px){
+    #content div a{
+        height: 100px;
+        width: 100px;
+        line-height: 100px;
+        font-size: 1em;
+    }
+            .orderarrow{
+    top: 98px;
+    left: 42%;
+
+    }
+}

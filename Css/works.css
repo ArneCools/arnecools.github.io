@@ -1,0 +1,119 @@
+
+
+#content .experience div{
+    position: relative;
+    width:47%;
+    margin-bottom: 24px;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 3%;
+}
+
+.progress-bar {
+    background-color: inherit;
+    width: 200px;
+    height: 30px;
+    display: inline-block;
+    border: 1px solid #313131;
+    float:right;
+    position: relative;
+}
+
+.progress-bar > span {
+    background-color: #313131;
+    height: 100%;
+    display: block;
+    color:rgb(150, 150, 150);
+    font-size: 1.1em;
+    text-align: center;
+    
+}
+
+.progress-bar > span > span{
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+
+
+
+#content > .experience > div, #content div div p {
+    float:left;
+}
+
+
+
+
+
+#content .experience div p {
+    width: 100px;
+    font-size: 1.1em;
+}
+
+#content .experience{
+font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.4em;
+    padding-top: 10px;
+    line-height: 200%;
+}
+
+#content .experience div:nth-child(even) p{
+    margin-left: 5%;
+}
+
+#content .works div {
+    margin-bottom: 30px;
+}
+
+#content .works p {
+    float:left;
+    width: 45%;
+    margin-right: 5%;
+    font-size: 1.1em;
+    margin-bottom: 30px;
+}
+
+#content .works iframe, #content .works img {
+    float: right;
+    width: 50%;
+}
+
+/* MEDIA STUFF */
+@media (max-width:600px){
+    
+   
+    #content .experience div {
+    float:none;
+        width: 100%
+    }
+    
+    #content .experience div p{
+        margin-left: 0!important;
+        width: 40%;
+        font-size: 1em;
+    }
+    
+    #content .experience div .progress-bar{
+        width: 40%;
+        margin-right: 0;
+    }
+    #content h1 {
+        font-size: 1.5em;
+        margin-top: 0;
+    }
+}
+
+@media all and (max-width:850px){
+    #content .works p,#content .works iframe,         #content .works img {
+        float:none;
+        display: block;
+        width: 75%;
+    }
+}
+
+@media all and (max-width:575px){
+    #content .works p,#content .works iframe,         #content .works img {
+            width: 100%;
+            
+        }
+}

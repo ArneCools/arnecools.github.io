@@ -1,0 +1,39 @@
+ #content form {
+     background-color: #f8f8f8;
+     font-family: 'Josefin Sans', sans-serif;
+     color:#313131;
+     font-size: 1.3em;
+     
+ }
+
+#content form label,#content form input {
+    display: block;
+}
+
+#content form label{
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+#content form div:first-child, #content form div:first-child label {
+    margin-top: 0;
+}
+
+#content form input, #content form textarea {
+    width: 100%;
+    background-color: #313131;
+    border: none;
+    color: #f8f8f8;
+}
+
+ #content form textarea {
+     height: 250px;
+ }
+
+#content form input[type="submit"] {
+    width: 100px;
+    height: 30px;
+    color: #f8f8f8;
+    font-family: 'Bree Serif', serif;
+    margin-top: 10px;
+}
